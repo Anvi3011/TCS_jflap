@@ -1,0 +1,1 @@
+JFLAP GUI verified: 5 accepted and 5 rejected; all expected outcomes matched.

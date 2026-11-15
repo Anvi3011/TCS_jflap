@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<structure>
+  <type>turing</type>
+  <automaton>
+    <state id="0" name="qFindA" x="10" y="25">
+      <initial />
+    </state>
+    <state id="1" name="qFindB" x="32" y="25" />
+    <state id="2" name="qFindC" x="55" y="25" />
+    <state id="3" name="qReturn" x="78" y="25" />
+    <state id="4" name="qCheck" x="78" y="75" />
+    <state id="5" name="qAccept" x="95" y="75">
+      <final />
+    </state>
+    <state id="6" name="qReject" x="50" y="85" />
+    <transition>
+      <from>0</from>
+      <to>0</to>
+      <read>X</read>
+      <write>X</write>
+      <move>R</move>
+    </transition>
+    <transition>
+      <from>0</from>
+      <to>1</to>
+      <read>a</read>
+      <write>X</write>
+      <move>R</move>
+    </transition>
+    <transition>
+      <from>1</from>
+      <to>1</to>
+      <read>Y</read>
+      <write>Y</write>
+      <move>R</move>
+    </transition>
+    <transition>
+      <from>0</from>
+      <to>4</to>
+      <read>Y</read>
+      <write>Y</write>
+      <move>R</move>
+    </transition>
+    <transition>
+      <from>0</from>
+      <to>5</to>
+      <read />
+      <write />
+      <move>S</move>
+    </transition>
+    <transition>
+      <from>1</from>
+      <to>1</to>
+      <read>a</read>
+      <write>a</write>
+      <move>R</move>
+    </transition>
+    <transition>
+      <from>1</from>
+      <to>2</to>
+      <read>b</read>
+      <write>Y</write>
+      <move>R</move>
+    </transition>
+    <transition>
+      <from>1</from>
+      <to>6</to>
+      <read>c</read>
+      <write>c</write>
+      <move>S</move>
+    </transition>
+    <transition>
+      <from>1</from>
+      <to>6</to>
+      <read />
+      <write />
+      <move>S</move>
+    </transition>
+    <transition>
+      <from>2</from>
+      <to>2</to>
+      <read>b</read>
+      <write>b</write>
+      <move>R</move>
+    </transition>
+    <transition>
+      <from>2</from>
+      <to>2</to>
+      <read>Z</read>
+      <write>Z</write>
+      <move>R</move>
+    </transition>
+    <transition>
+      <from>2</from>
+      <to>3</to>
+      <read>c</read>
+      <write>Z</write>
+      <move>L</move>
+    </transition>
+    <transition>
+      <from>2</from>
+      <to>6</to>
+      <read>a</read>
+      <write>a</write>
+      <move>S</move>
+    </transition>
+    <transition>
+      <from>2</from>
+      <to>6</to>
+      <read />
+      <write />
+      <move>S</move>
+    </transition>
+    <transition>
+      <from>3</from>
+      <to>3</to>
+      <read>a</read>
+      <write>a</write>
+      <move>L</move>
+    </transition>
+    <transition>
+      <from>3</from>
+      <to>3</to>
+      <read>b</read>
+      <write>b</write>
+      <move>L</move>
+    </transition>
+    <transition>
+      <from>3</from>
+      <to>3</to>
+      <read>c</read>
+      <write>c</write>
+      <move>L</move>
+    </transition>
+    <transition>
+      <from>3</from>
+      <to>3</to>
+      <read>X</read>
+      <write>X</write>
+      <move>L</move>
+    </transition>
+    <transition>
+      <from>3</from>
+      <to>3</to>
+      <read>Y</read>
+      <write>Y</write>
+      <move>L</move>
+    </transition>
+    <transition>
+      <from>3</from>
+      <to>3</to>
+      <read>Z</read>
+      <write>Z</write>
+      <move>L</move>
+    </transition>
+    <transition>
+      <from>3</from>
+      <to>0</to>
+      <read />
+      <write />
+      <move>R</move>
+    </transition>
+    <transition>
+      <from>4</from>
+      <to>4</to>
+      <read>X</read>
+      <write>X</write>
+      <move>R</move>
+    </transition>
+    <transition>
+      <from>4</from>
+      <to>4</to>
+      <read>Y</read>
+      <write>Y</write>
+      <move>R</move>
+    </transition>
+    <transition>
+      <from>4</from>
+      <to>4</to>
+      <read>Z</read>
+      <write>Z</write>
+      <move>R</move>
+    </transition>
+    <transition>
+      <from>4</from>
+      <to>5</to>
+      <read />
+      <write />
+      <move>S</move>
+    </transition>
+    <transition>
+      <from>4</from>
+      <to>6</to>
+      <read>a</read>
+      <write>a</write>
+      <move>S</move>
+    </transition>
+    <transition>
+      <from>4</from>
+      <to>6</to>
+      <read>b</read>
+      <write>b</write>
+      <move>S</move>
+    </transition>
+    <transition>
+      <from>4</from>
+      <to>6</to>
+      <read>c</read>
+      <write>c</write>
+      <move>S</move>
+    </transition>
+  </automaton>
+</structure>

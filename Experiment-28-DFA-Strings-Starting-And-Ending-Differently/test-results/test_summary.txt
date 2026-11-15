@@ -1,0 +1,1 @@
+JFLAP 7.1 Multiple Run: 6 accepted and 7 rejected inputs. 13/13 displayed expected outcomes.

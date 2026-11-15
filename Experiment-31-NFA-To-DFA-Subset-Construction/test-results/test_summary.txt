@@ -1,0 +1,1 @@
+JFLAP 7.1 Multiple Run: 5 accepted and 8 rejected inputs. 13/13 displayed expected outcomes. Source NFA editor and source-NFA Multiple Run screenshots are also included. The PDF's table omits the final-state marking; q3 is assumed final because the supplied subset-DFA diagram marks subsets containing q3 as accepting.

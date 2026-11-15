@@ -1,0 +1,20 @@
+JFLAP 7.1 Multiple Run test results
+
+Accepted inputs:
+'001' : Accept
+'0001' : Accept
+'1001' : Accept
+'0010' : Accept
+'111001' : Accept
+
+Rejected inputs:
+'0' : Reject
+'1' : Reject
+'00' : Reject
+'11' : Reject
+'010' : Reject
+'1010' : Reject
+'0100' : Reject
+'1000' : Reject
+
+Source NFA and subset DFA were tested with the same language examples.

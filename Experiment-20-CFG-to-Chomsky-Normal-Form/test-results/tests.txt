@@ -1,0 +1,2 @@
+Accepted/generated: ab, aabb, aaabbb, aaaabbbb.
+Rejected/not generated: a, b, abb, abab, aab.

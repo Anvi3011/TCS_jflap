@@ -1,0 +1,1 @@
+JFLAP GUI opened the building-block machine and a run trace reached qHalt for 1111.

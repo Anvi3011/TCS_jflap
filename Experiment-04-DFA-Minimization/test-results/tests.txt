@@ -1,0 +1,10 @@
+a	Accept
+aa	Accept
+ba	Accept
+aba	Accept
+bba	Accept
+<empty>	Reject
+b	Reject
+ab	Reject
+aab	Reject
+bab	Reject

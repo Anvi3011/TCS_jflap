@@ -1,0 +1,1 @@
+Automaton witness opened in the JFLAP Regular Pumping Lemma editor. Proof-oriented task; no artificial accept/reject suite claimed.

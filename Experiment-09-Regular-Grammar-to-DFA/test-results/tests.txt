@@ -1,0 +1,3 @@
+Accepted: a, ba, aba, bba, aaba
+Rejected: b, ab, bb, abb, bbaab
+All 10 results were visibly returned by JFLAP Multiple Run.

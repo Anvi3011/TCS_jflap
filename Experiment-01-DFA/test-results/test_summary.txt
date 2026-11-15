@@ -1,0 +1,18 @@
+TEST EXECUTION REPORT - Experiment-01 DFA
+====================================================
+Total Test Cases : 10
+Passed           : 10
+Failed           : 0
+Success Rate     : 100%
+
+Detailed Log:
+TC-01 | Input: 'ab' | Expected: Accept | Actual: Accept | Status: PASS
+TC-02 | Input: 'aab' | Expected: Accept | Actual: Accept | Status: PASS
+TC-03 | Input: 'bab' | Expected: Accept | Actual: Accept | Status: PASS
+TC-04 | Input: 'abbab' | Expected: Accept | Actual: Accept | Status: PASS
+TC-05 | Input: 'baab' | Expected: Accept | Actual: Accept | Status: PASS
+TC-06 | Input: '' | Expected: Reject | Actual: Reject | Status: PASS
+TC-07 | Input: 'a' | Expected: Reject | Actual: Reject | Status: PASS
+TC-08 | Input: 'b' | Expected: Reject | Actual: Reject | Status: PASS
+TC-09 | Input: 'aba' | Expected: Reject | Actual: Reject | Status: PASS
+TC-10 | Input: 'ba' | Expected: Reject | Actual: Reject | Status: PASS

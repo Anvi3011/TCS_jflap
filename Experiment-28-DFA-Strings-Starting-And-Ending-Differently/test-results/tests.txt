@@ -1,0 +1,18 @@
+JFLAP 7.1 Multiple Run test results
+
+Accepted inputs:
+'01' : Accept
+'10' : Accept
+'001' : Accept
+'011' : Accept
+'110' : Accept
+'100' : Accept
+
+Rejected inputs:
+'0' : Reject
+'1' : Reject
+'00' : Reject
+'11' : Reject
+'010' : Reject
+'0110' : Reject
+'1001' : Reject

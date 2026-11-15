@@ -1,0 +1,1 @@
+JFLAP Multiple Run (Transducer): 0->0, 1->1, 10->11, 11->10, 1011->1101. These are outputs, not accept/reject results.

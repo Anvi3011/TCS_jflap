@@ -1,0 +1,1 @@
+JFLAP GUI opened the automaton witness; mathematical proof remains separate.

@@ -1,0 +1,1 @@
+JFLAP GUI verified: 3 generated and 3 non-generated strings.

@@ -1,0 +1,1 @@
+Source NPDA and converted CFG opened in JFLAP. Converted CFG membership: accepted ab, aabb, aaabbb, aaaabbbb; rejected a, b, abb, aab, abab. These tests do not independently prove NPDA/CFG equivalence.

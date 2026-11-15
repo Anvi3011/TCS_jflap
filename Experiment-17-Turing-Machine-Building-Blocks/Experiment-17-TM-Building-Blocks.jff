@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<structure>
+  <type>turing</type>
+  <automaton>
+    <state id="0" name="qScanRight" x="25" y="50">
+      <initial />
+    </state>
+    <state id="1" name="qHalt" x="75" y="50">
+      <final />
+    </state>
+    <transition>
+      <from>0</from>
+      <to>0</to>
+      <read>1</read>
+      <write>1</write>
+      <move>R</move>
+    </transition>
+    <transition>
+      <from>0</from>
+      <to>1</to>
+      <read />
+      <write>1</write>
+      <move>S</move>
+    </transition>
+  </automaton>
+</structure>

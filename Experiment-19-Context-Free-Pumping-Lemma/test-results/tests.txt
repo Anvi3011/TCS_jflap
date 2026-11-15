@@ -1,0 +1,1 @@
+Witness Turing machine opened in JFLAP Standard Turing Machine editor. Proof-oriented task; no artificial accept/reject suite claimed.

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<structure>
+  <type>turing</type>
+  <automaton>
+    <state id="0" name="qScan" x="15" y="50">
+      <initial />
+    </state>
+    <state id="1" name="qPair" x="42" y="50" />
+    <state id="2" name="qReturn" x="68" y="50" />
+    <state id="3" name="qAccept" x="90" y="25">
+      <final />
+    </state>
+    <state id="4" name="qReject" x="90" y="75" />
+    <transition>
+      <from>0</from>
+      <to>0</to>
+      <read>X</read>
+      <write>X</write>
+      <move>R</move>
+    </transition>
+    <transition>
+      <from>0</from>
+      <to>1</to>
+      <read>0</read>
+      <write>X</write>
+      <move>R</move>
+    </transition>
+    <transition>
+      <from>0</from>
+      <to>1</to>
+      <read>1</read>
+      <write>X</write>
+      <move>R</move>
+    </transition>
+    <transition>
+      <from>0</from>
+      <to>3</to>
+      <read />
+      <write />
+      <move>S</move>
+    </transition>
+    <transition>
+      <from>1</from>
+      <to>2</to>
+      <read>0</read>
+      <write>X</write>
+      <move>L</move>
+    </transition>
+    <transition>
+      <from>1</from>
+      <to>2</to>
+      <read>1</read>
+      <write>X</write>
+      <move>L</move>
+    </transition>
+    <transition>
+      <from>1</from>
+      <to>4</to>
+      <read />
+      <write />
+      <move>S</move>
+    </transition>
+    <transition>
+      <from>2</from>
+      <to>2</to>
+      <read>X</read>
+      <write>X</write>
+      <move>L</move>
+    </transition>
+    <transition>
+      <from>2</from>
+      <to>0</to>
+      <read />
+      <write />
+      <move>R</move>
+    </transition>
+  </automaton>
+</structure>

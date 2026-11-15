@@ -1,0 +1,1 @@
+JFLAP Fast Run trace captured for input 1011. The Multiple Run table did not populate a Moore output column; no batch PASS count is claimed.

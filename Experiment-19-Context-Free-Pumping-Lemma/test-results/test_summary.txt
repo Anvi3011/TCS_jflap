@@ -1,0 +1,1 @@
+JFLAP GUI opened the witness TM; mathematical proof remains separate.

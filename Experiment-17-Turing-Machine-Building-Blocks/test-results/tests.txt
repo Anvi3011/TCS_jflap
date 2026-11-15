@@ -1,0 +1,1 @@
+Input 1111 was run in the JFLAP Turing Machine with Building Blocks simulator; execution trace reached qHalt. No batch test count claimed.
